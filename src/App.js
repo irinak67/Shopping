@@ -30,7 +30,7 @@ const ItemPage = () => {
   let [ price, setPrice ] = useState();
   let [ image, setImage ] = useState();
   let { id } = useParams();
-    
+
   useEffect(() => {
     itemData(id).then((res) => {
       let data = res;
@@ -78,15 +78,6 @@ const CartPage = () => {
     </div>
   );
 };
-// const ItemPage = () => {
-//   let { id } = useParams();
-//   let { title } = useParams();
-//   let { desc } = useParams(desc);
-//   let { price } = useParams();
-//   return(
-//     <div className='123'>
-//       <h1>I am here</h1>
-//       {console.log({title, id, desc})}
     
 //     </div>
 //   )
