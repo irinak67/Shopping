@@ -1,0 +1,111 @@
+.home {
+    font-weight: bold;
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(238, 56, 96);
+}
+
+.items {
+    display:flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgba(223, 15, 112, 0.35);
+    font-size: large;
+    line-height: 30px;
+  }
+
+.items a {
+  
+  color:rgb(37, 21, 2);
+}
+
+#link.items :visited {
+  color:rgb(37, 21, 2);
+}
+
+#link.items :hover {
+  color:rgb(37, 21, 2);
+}
+  
+  #title {
+    text-align: center;
+    color:rgb(238, 56, 96);
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+  }
+  
+  #id {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgba(15, 1, 9, 0.35);
+    font-size: x-large;
+  }
+
+  .item {
+    background-color: rgb(247, 177, 177);
+    width: 400px;
+    display: flex;
+    border-radius: 5%;
+    margin: auto;
+    margin-top: 2%;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #btn {
+    display: inline-block;
+    width: 60px;
+    height: 60px;;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: rgb(65, 57, 12);
+    background-color: #413b06;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(73, 63, 6);
+    background-size:contain;
+    background-image: url("https://png.pngtree.com/png-vector/20190115/ourlarge/pngtree-vector-add-to-cart-vector-icon-png-image_319797.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+  
+#btn:hover {background-color: #3e8e41}
+  
+#btn:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.image {
+  border-radius: 5%;
+  width: 200px;
+  height: 200px;
+}
+
+#link {
+  
+  border: 2px solid;
+  border-radius: 3px;
+  width: 80px;
+  text-align: center;
+  /* margin-left: 600px;
+  margin-top: 20px; */
+  margin: 20px 595px;
+  background-color: #92330E;
+  color:white;
+}
+#link a :hover {
+  color:bisque;
+} 
+
+#link a {
+  color:bisque;
+} 
